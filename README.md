@@ -41,7 +41,7 @@ As migrations irão criar um usuário administrador automaticamente com as segui
 ```bash
 {
 	"name": "Admin",
-	"email": "admin@adm.com",
+	"email": "admin@gmail.com",
 	"password" : "admin"
 }
 ```
