@@ -15,9 +15,10 @@ deletadas.
 </ul>
 
 ## Instalação
-1. Crie uma database com o nome mestres-da-web-desafio;
-2. Configure os dados do banco no arquivo ormconfig.json;
-3. Instale as dependências com o comando:
+1. Clone o repositório para o seu computador
+2. Crie uma database com o nome mestres-da-web-desafio;
+3. Configure os dados do banco no arquivo ormconfig.json;
+4. Instale as dependências com o comando:
 ```bash
 yarn install
 ```
@@ -25,15 +26,15 @@ ou
 ```bash
 npm install
 ```
-4. Execute as migrations com o comando:
+5. Execute as migrations com o comando:
 ```bash
 yarn typeorm migration:run
 ```
-5. Inicie a aplicação com o comando:
+6. Inicie a aplicação com o comando:
 ```bash
 yarn start
 ```
-6. Importe o arquivo insomnia_export.json para o seu Insomnia;
+7. Importe o arquivo insomnia_export.json para o seu Insomnia;
 
 ## Como utilizar:
 As migrations irão criar um usuário administrador automaticamente com as seguintes credenciais:
